@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fishograph</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">504247596400109</string>
+    <string name="textLoginString"><u>already have an Account</u>?</string>
+    <string name="terms">By Signing Up you are agreeing that you have read and agree to our <font color="black"><u>terms of service</u></font> and <font color="black"><u>privacy policy</u></font></string>
+</resources>

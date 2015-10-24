@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Capture"
+    android:background="#000000" >
+
+<com.edmodo.cropper.CropImageView 
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/captured"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_above="@+id/bottom"
+    />
+ <LinearLayout android:id="@+id/bottom"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true" >
+  <Button android:id="@+id/cancel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:layout_weight="1"
+      android:text="cancel"
+      />
+  <Button android:id="@+id/rotate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:layout_weight="1"
+      android:text="Rotate"
+      />
+  <Button android:id="@+id/crop"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:layout_weight="1"
+      android:text="Crop"
+      />
+  <Button android:id="@+id/done"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:layout_weight="1"
+      android:text="Done"
+      />  
+ </LinearLayout>
+  
+</RelativeLayout>

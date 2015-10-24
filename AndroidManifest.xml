@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sivaram.fishograph"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ <uses-feature android:name="android.hardware.camera"
+                  android:required="true" />
+ <supports-screens android:smallScreens="true" 
+          android:normalScreens="true" 
+          android:largeScreens="true"
+          android:xlargeScreens="true"
+          android:anyDensity="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconresized"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:name=".Login"
+            android:theme="@style/Logintheme"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.FacebookActivity"
+          android:configChanges=
+                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+          android:theme="@android:style/Theme.Translucent.NoTitleBar"
+          android:label="@string/app_name" />
+        
+        <activity android:name=".EditProfile"
+            />
+        <activity android:name=".Capture"
+            />
+        <activity android:name=".LoginNew"
+            />
+        <activity android:name=".Password"
+            />
+        <activity android:name=".SignUpForm"
+            />
+        <activity android:name=".ShowUser"
+            />
+        <activity android:name=".ShowHashtag"
+            />
+    </application>
+</manifest>

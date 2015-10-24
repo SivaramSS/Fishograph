@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+            android:id="@+id/searchfl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true">
+        <TextView
+                android:id="@+id/etlabelsearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Search"
+                android:textColor="#ea5f4f"/>
+        <EditText
+                android:id="@+id/etsearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/etbg"
+                android:ems="10"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:textColor="#ea5f4f" />
+        
+        <ImageButton android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/etsearch"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:background="@null"
+            android:src="@drawable/arrow"/>
+
+   </RelativeLayout>
+
+  <ListView android:id="@+id/listofpeople"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="10dp" />
+</LinearLayout>

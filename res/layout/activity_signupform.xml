@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d3d3d3">
+    
+    <ImageView
+        android:id="@+id/setdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:src="@drawable/nodp"/>
+    
+    <FrameLayout
+            android:id="@+id/handleform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/ethandle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/etbg"
+                android:ems="10"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:textColor="#ea5f4f" />
+
+            <TextView
+                android:id="@+id/etlabelhandle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="handle"
+                android:textColor="#ea5f4f"/>
+
+    </FrameLayout>
+    <FrameLayout
+            android:id="@+id/passwordform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/etpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/etbg"
+                android:ems="10"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:textColor="#ea5f4f"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/etlabelpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Password"
+                android:padding="5dp"
+                android:textColor="#ea5f4f"/>
+
+    </FrameLayout>
+   <RelativeLayout android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/create"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="-10dp"
+        android:paddingBottom="-10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buttonbg"
+        android:textColor="#ffffff"
+        android:text="Create" />
+
+    <CheckBox
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ea5f4f"
+        android:text="Show password" />
+    
+    </RelativeLayout>
+</LinearLayout>
