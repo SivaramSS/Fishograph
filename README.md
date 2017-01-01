@@ -13,16 +13,18 @@ Complete Source Code with resources to Build a primitive version of Instagram fr
     Display Trending posts based on location.
     Report Inappropriate photos.
 
-Modules left for completion :
+# Modules yet to be completed
 
     Comment, Tag people on photos.
     Generate Activity feed.
     Report Inappropriate photos.
 
-Issues being faced :
+# Issues
 
     Newsfeed not loaded properly (ListView Issue).
     Like Animation not working properly.
     
-Feel free to Fork. ;)
+# License
+
+
 
