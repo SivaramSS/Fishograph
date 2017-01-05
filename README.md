@@ -1,30 +1,38 @@
 # Fishograph
 
-Complete Source Code with resources to Build a primitive version of Instagram from Scratch. Basic features includes
+Fishograph is a photo sharing android application similar to Instagram. The app contains icon sets as well as assets and could be a starter for anyone building such an application.
 
-    Login via Email and Facebook.
-    Generate News feed.
-    Capture photos and share.
-    Like, Comment, Tag people, Hashtag on photos.
-    Follow people.
-    Edit Profile.
-    Search People, Photos and Hashtags.
-    Generate Activity feed (Display what friends do).
-    Display Trending posts based on location.
-    Report Inappropriate photos.
+## What works
 
-# Modules yet to be completed
+- Login via Email and Facebook.
+- Generate News feed.
+- Capture photos and share.
+- Like, Comment, Tag people, Hashtag on photos.
+- Follow people.
+- Edit Profile.
+- Search People, Photos and Hashtags.
+- Generate Activity feed (Display what friends do).
+- Display Trending posts based on location.
+- Report Inappropriate photos.
 
-    Comment, Tag people on photos.
-    Generate Activity feed.
-    Report Inappropriate photos.
+## Modules yet to be completed
 
-# Issues
+- Comment, Tag people on photos.
+- Generate Activity feed.
+- Report Inappropriate photos.
 
-    Newsfeed not loaded properly (ListView Issue).
-    Like Animation not working properly.
+## Contribution
+
+Any contribution is welcomed. Feel free to fork.
+
+## Known bugs
+
+- Newsfeed not loaded properly (ListView Issue).
+- Like Animation not working properly.
     
 # License
+
+This project is licensed under (Apache License 2.0) []
 
 
 
